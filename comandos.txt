@@ -1,0 +1,33 @@
+Comandos do mysql
+
+/*serve para conectar no MySQL*/
+mysql - u root - p
+
+/*mostra todas as bases de dados*/
+show databases oushowschemas
+
+/*seleciona aquela base de dados*/
+use nome_da_base_de_dados
+
+/*apaga uma base de dados*/
+drop database nome_do_banco_de_dados;
+
+/*mostra todas as tabelas daquela base de dados*/
+show tables 
+
+/*mostra a estrutura de uma tabela*/
+describe nome_da_tabela
+
+/*apaga uma tabela*/
+drop table nome_da_tabela
+
+
+/*DLL*/
+CREATE TABLE nome_da_tabela (
+    atributos
+);
+
+/*atributos*/
+
+/*Seleciona todos os elementos de uma tabela*/
+SELECT * FROM nome_da tabela
